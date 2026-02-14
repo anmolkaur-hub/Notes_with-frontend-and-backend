@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body,#root{
+  height: 100%;
+  width: 100%;
+}
+html{
+  background-color: black;
+  font-family:Helvetica
+}
+
+
+
+.notes{
+  
+  display: flex;
+  gap: 1rem;
+  padding-block: 1rem;
+  padding-inline: 3rem;
+}
+.note{
+  background-color: rgb(73, 179, 144);
+  height: 5rem;
+  width: 10rem;
+ overflow: hidden;
+  color:white;
+  border-radius: 0.6rem;
+}
